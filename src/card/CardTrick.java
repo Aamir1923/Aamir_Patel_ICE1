@@ -30,12 +30,8 @@ public class CardTrick {
             System.out.println("Card: " + cardNumberRand + " of " + Card.SUITS[cardSuitRand] + "(" + cardSuitRand + ")");
         }
         
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your lucky card value (1-13): ");
-        int luckyValue = scanner.nextInt();
-        System.out.print("Enter your lucky card suit (0=Hearts, 1=Diamonds, 2=Spades, 3=Clubs): ");
-        int luckySuit = scanner.nextInt();
-        
+         int luckyValue = 2;
+         int luckySuit = 3;
         Card luckyCard = new Card();
         luckyCard.setValue(luckyValue);
         luckyCard.setSuit(Card.SUITS[luckySuit]);
