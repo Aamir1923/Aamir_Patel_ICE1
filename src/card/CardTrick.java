@@ -10,7 +10,8 @@ package card;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author srinivsi
  */
-
+//Aamir Patel
+//991715970
 import java.util.Scanner;
 
 public class CardTrick {
